@@ -12,27 +12,26 @@
     "dev": {
       "name": "dev",
       "command": "npm run dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 8081
+      }
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "preview": {
       "name": "preview",
-      "command": "npm run preview",
-      "runAtStart": false
+      "command": "npm run preview"
     },
     "build-only": {
       "name": "build-only",
-      "command": "npm run build-only",
-      "runAtStart": false
+      "command": "npm run build-only"
     },
     "type-check": {
       "name": "type-check",
-      "command": "npm run type-check",
-      "runAtStart": false
+      "command": "npm run type-check"
     }
   }
 }
